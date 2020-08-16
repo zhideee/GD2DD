@@ -17,6 +17,5 @@ function copy(){
 
     output.select();
     document.execCommand("Copy");
-    alert("Copied!");
     document.getElementById("Copied").innerHTML = "Copied!";
 }
